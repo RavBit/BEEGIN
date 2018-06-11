@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using DG.Tweening;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -29,8 +30,8 @@ public class Piece : MonoBehaviour
 
     private void OnButtonClicked()
     {
-        // open image fullscreen
-        Debug.Log("Open image fullscreen with description and title.");
-        Debug.Log("title: " + _title + " / description: " + _description);
+        View.instance.DetailView.Initialize(_image.sprite, _title, _description);
+        View.instance.DetailView.transform.DOMoveX(540, 0.3f);
+        View.instance.SetHeader("Honey");
     }
 }

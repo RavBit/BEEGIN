@@ -5,6 +5,6 @@ using UnityEngine.SceneManagement;
 public class Login : MonoBehaviour {
     public void LoginUser()
     {
-        SceneManager.LoadScene("Home");
+        SceneManager.LoadScene("Tutorial");
     }
 }

@@ -31,6 +31,7 @@ public class Interface_Manager : MonoBehaviour {
 
     public void OnToggle()
     {
+        Handheld.Vibrate();
         toggled = !toggled;
         if(toggled)
         {
@@ -50,11 +51,13 @@ public class Interface_Manager : MonoBehaviour {
 
     public void SubMenu(int i)
     {
+        Handheld.Vibrate();
         SubMenus[i].SetActive(!SubMenus[i].activeInHierarchy);
     }
 
     public void ReportBug()
     {
+        Handheld.Vibrate();
         OnToggle();
         Bug_Report.SetActive(true);
         Bug_Report.transform.DOLocalMoveX(0, 1);
@@ -62,17 +65,20 @@ public class Interface_Manager : MonoBehaviour {
 
     public void SendBug()
     {
+        Handheld.Vibrate();
         Bug_Report.transform.DOLocalMoveX(1080, 1);
         Invoke("DeactiveBug", 1);
     }
 
     public void DeactiveBug()
     {
+        Handheld.Vibrate();
         Bug_Report.SetActive(false);
     }
 
     public void LogOut()
     {
+        Handheld.Vibrate();
         SceneManager.LoadScene("Login");
     }
 }

@@ -15,9 +15,10 @@ public class Tutorial_Manager : MonoBehaviour {
     }
     public void NextTutButton()
     {
+        Handheld.Vibrate();
         if (imagecount == TutorialImages.Length - 1)
         {
-            SceneManager.LoadScene("Home");
+            SceneManager.LoadScene("Home_2");
             return;
         }
         imagecount++;

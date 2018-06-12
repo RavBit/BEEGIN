@@ -47,7 +47,7 @@ public class ProfileView : MonoBehaviour
         Dispose();
     }
 
-    private void Dispose()
+    public void Dispose()
     {
         _buttonClose.onClick.RemoveListener(OnButtonClicked);
         _buttonAccept.onClick.RemoveAllListeners();

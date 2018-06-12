@@ -12,6 +12,11 @@ public class Interface_Manager : MonoBehaviour {
     public Transform[] Hexagons;
     public Transform Menu_Background;
     public GameObject[] SubMenus;
+    public Text Label;
+
+    public GameObject Settingsscreen;
+
+    public ProfileView ProfileView;
 
     [Header("Settings and stuff screen")]
     public GameObject Bug_Report;
@@ -28,6 +33,23 @@ public class Interface_Manager : MonoBehaviour {
 
     }
 
+    public void DisposeScreen()
+    {
+        ProfileView.Dispose();
+    }
+
+    public void HoneyInTheMaking()
+    {
+        Debug.Log("Honey in the making");
+        Label.text = "Honey in the Making";
+        View.instance.SetHeader("Honey in the Making");
+    }
+
+    public void MyHive()
+    {
+        Label.text = "My Hive";
+        View.instance.SetHeader("My Hive");
+    }
 
     public void OnToggle()
     {
@@ -80,5 +102,32 @@ public class Interface_Manager : MonoBehaviour {
     {
         Handheld.Vibrate();
         SceneManager.LoadScene("Login");
+    }
+
+    public void Tutorial()
+    {
+        Handheld.Vibrate();
+        SceneManager.LoadScene("Tutorial");
+    }
+
+    public void SettingsTrigger()
+    {
+        Handheld.Vibrate();
+        OnToggle();
+        Settingsscreen.SetActive(true);
+        Settingsscreen.transform.DOLocalMoveX(0, 1);
+    }
+
+    public void SettingsExit()
+    {
+        Handheld.Vibrate();
+        Settingsscreen.transform.DOLocalMoveX(1080, 1);
+        Invoke("DeactivateSetting", 1);
+    }
+
+    public void DeactivateSetting()
+    {
+        Handheld.Vibrate();
+        Settingsscreen.SetActive(false);
     }
 }

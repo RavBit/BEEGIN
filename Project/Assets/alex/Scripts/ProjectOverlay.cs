@@ -9,6 +9,7 @@ public class ProjectOverlay : MonoBehaviour
     [SerializeField] private Text _labelTitle;
     [SerializeField] private Text _labelSlogan;
     [SerializeField] private Text _labelDescription;
+    [SerializeField] private Image _imageBee;
 
     private Image _image;
     private Button _buttonClose;
@@ -41,6 +42,7 @@ public class ProjectOverlay : MonoBehaviour
         _labelDescription.DOFade(1f, 0.3f);
 
         _image.DOFade(1f, 0.3f);
+        _imageBee.DOFade(1f, 0.3f);
     }
 
 
@@ -51,6 +53,7 @@ public class ProjectOverlay : MonoBehaviour
         _labelDescription.DOFade(0f, 0.3f);
 
         _image.DOFade(0f, 0.3f).OnComplete(OnTweenCompleted);
+        _imageBee.DOFade(0f, 0.3f);
         _view.OnOverlayClosed();
     }
 

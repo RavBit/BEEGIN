@@ -8,10 +8,12 @@ public class ProfileView : MonoBehaviour
 {
     [SerializeField] private Piece[] _pieces;
     [SerializeField] private Text _labelProfession;
+    [SerializeField] private Text _labelPun;
     [SerializeField] private Button _buttonClose;
+    [SerializeField] private Image _imageCrown;
     
 
-    public void Initialize(Item[] items, string profession)
+    public void Initialize(Item[] items, string profession, string pun, bool isOwner)
     {
         for (int i = 0; i < items.Length; i++)
         {
@@ -22,7 +24,9 @@ public class ProfileView : MonoBehaviour
         }
 
         _labelProfession.text = profession;
+        _labelPun.text = pun;
         _buttonClose.onClick.AddListener(OnButtonClicked);
+        _imageCrown.gameObject.SetActive(isOwner);
     }
 
     private void OnButtonClicked()

@@ -26,6 +26,9 @@ public class ProfileView : MonoBehaviour
             _pieces[i].Initialize(items[i].sprite, items[i].title, items[i].description);
         }
 
+        _buttonAccept.gameObject.SetActive(!isOwner);
+        _buttonDecline.gameObject.SetActive(!isOwner);
+
         _labelProfession.text = profession;
         _labelPun.text = pun;
         _buttonClose.onClick.AddListener(OnButtonClicked);

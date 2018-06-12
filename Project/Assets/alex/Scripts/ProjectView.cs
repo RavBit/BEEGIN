@@ -38,4 +38,13 @@ public class ProjectView : MonoBehaviour
         _buttonInformation.gameObject.SetActive(true);
         _imageLines.DOFade(1f, 0.3f);
     }
+
+
+    public void AaplexEnSnelgiGingenWandelenMaarToenKwamBus12(string title, string description)
+    {
+        _labelTitle.text = title;
+
+        _title = title;
+        _description = description;
+    }
 }

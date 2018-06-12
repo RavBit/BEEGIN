@@ -23,6 +23,7 @@ public class ProjectView : MonoBehaviour
         _buttonInformation.onClick.AddListener(OnButtonClick);
     }
 
+
     private void OnButtonClick()
     {
         _projectOverlay.Initialize(this, _title, _slogan, _description);
@@ -30,6 +31,7 @@ public class ProjectView : MonoBehaviour
         _buttonInformation.gameObject.SetActive(false);
         _imageLines.DOFade(0f, 0.3f);
     }
+
 
     public void OnOverlayClosed()
     {

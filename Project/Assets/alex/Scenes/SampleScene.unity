@@ -129,7 +129,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &49198640
 RectTransform:
   m_ObjectHideFlags: 0
@@ -711,24 +711,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _profession: 3D Artist
   _items:
-  - sprite: {fileID: 21300000, guid: 3e1321f7c45dc1d46a74e915f30cfc96, type: 3}
-    title: Searchlight
-    description: 'on point searchlight (50000 tris) '
-  - sprite: {fileID: 21300000, guid: 170da201fe4087b4091f2e94268ae952, type: 3}
-    title: ur nans car
-    description: gotem nice
-  - sprite: {fileID: 21300000, guid: 170da201fe4087b4091f2e94268ae952, type: 3}
-    title: ur nans car
-    description: gotem nice
-  - sprite: {fileID: 21300000, guid: 170da201fe4087b4091f2e94268ae952, type: 3}
-    title: ur nans car
-    description: gotem nice
-  - sprite: {fileID: 21300000, guid: 170da201fe4087b4091f2e94268ae952, type: 3}
-    title: ur nans car
-    description: gotem nice
-  - sprite: {fileID: 21300000, guid: 170da201fe4087b4091f2e94268ae952, type: 3}
-    title: ur nans car
-    description: gotem nice
+  - sprite: {fileID: 21300000, guid: 40583febb9bf7a84abd43172b16abe8d, type: 3}
+    title: birthday
+    description: hello
 --- !u!114 &271732298
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -821,7 +806,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &336780246
 RectTransform:
   m_ObjectHideFlags: 0
@@ -851,26 +836,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fb405ee95b6edb4cba182a253da4477, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _profession: Sergi
-  _items:
-  - sprite: {fileID: 21300000, guid: 40583febb9bf7a84abd43172b16abe8d, type: 3}
-    title: birthday
-    description: my dog doin a yahoooo
-  - sprite: {fileID: 21300000, guid: 94c6ebbe56707824aa3bbd06a70f2e06, type: 3}
-    title: 3d hulk model picture
-    description: this i make in high school from years ago
-  - sprite: {fileID: 21300000, guid: 9b105650b2c3daa4bbeb6b4a7c0cfcc3, type: 3}
-    title: dinner
-    description: my fake cat get eat by real fisher
-  - sprite: {fileID: 21300000, guid: 5977cab444040034c97f3944be7d2a98, type: 3}
-    title: fishing boat
-    description: boat i make from a fisher
-  - sprite: {fileID: 21300000, guid: 2273e25e97ef2c2448e8223608d1d030, type: 3}
-    title: shadow release me
-    description: my shadow is not anymore
-  - sprite: {fileID: 21300000, guid: c9486f480c0288e498e7d8732a9f3180, type: 3}
-    title: mcgoofy
-    description: my friend and i
+  _profession: 
+  _items: []
 --- !u!114 &336780248
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1683,9 +1650,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3abca0ecf820e304aa147d33c7b38dc7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _labelTitle: {fileID: 460741271}
-  _labelSlogan: {fileID: 827481811}
-  _labelDescription: {fileID: 1162955981}
+  _labelTitle: {fileID: 0}
+  _labelSlogan: {fileID: 0}
+  _labelDescription: {fileID: 0}
 --- !u!114 &604433071
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2471,7 +2438,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1053953144
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2506,17 +2473,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d4f7393a21baa7f47a0b97c6b4d76d06, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _buttonInformation: {fileID: 1784086047}
-  _labelTitle: {fileID: 1874748445}
-  _labelDescription: {fileID: 1915891453}
-  _imageLines: {fileID: 470625737}
-  _title: FIFA 19
-  _slogan: Playing football has never been this good
-  _description: 'EA SPORTS FIFA 19 delivers a champion-caliber experience on and off
-    the pitch, thanks to the introduction of the UEFA Champions League and a series
-    of gameplay innovations on PlayStation 4, Xbox One, and PC, that provide new ways
-    for you to control every aspect of every minute on the pitch. '
-  _projectOverlay: {fileID: 604433070}
+  _buttonInformation: {fileID: 0}
+  _labelTitle: {fileID: 0}
+  _labelDescription: {fileID: 0}
+  _imageLines: {fileID: 0}
+  _title: 
+  _slogan: 
+  _description: 
+  _projectOverlay: {fileID: 0}
 --- !u!1 &1085684607
 GameObject:
   m_ObjectHideFlags: 0
@@ -2923,26 +2887,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fb405ee95b6edb4cba182a253da4477, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _profession: 3D Artist
-  _items:
-  - sprite: {fileID: 21300000, guid: 3e1321f7c45dc1d46a74e915f30cfc96, type: 3}
-    title: Searchlight
-    description: 'on point searchlight (50000 tris) '
-  - sprite: {fileID: 21300000, guid: 170da201fe4087b4091f2e94268ae952, type: 3}
-    title: ur nans car
-    description: gotem nice
-  - sprite: {fileID: 21300000, guid: 170da201fe4087b4091f2e94268ae952, type: 3}
-    title: ur nans car
-    description: gotem nice
-  - sprite: {fileID: 21300000, guid: 170da201fe4087b4091f2e94268ae952, type: 3}
-    title: ur nans car
-    description: gotem nice
-  - sprite: {fileID: 21300000, guid: 170da201fe4087b4091f2e94268ae952, type: 3}
-    title: ur nans car
-    description: gotem nice
-  - sprite: {fileID: 21300000, guid: 170da201fe4087b4091f2e94268ae952, type: 3}
-    title: ur nans car
-    description: gotem nice
+  _profession: 
+  _items: []
 --- !u!114 &1215935134
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3241,11 +3187,8 @@ MonoBehaviour:
   _labelDescription: {fileID: 1427056796}
   _imageLines: {fileID: 1947943808}
   _title: Battlefield V
-  _slogan: Multiplayer will never be the same
-  _description: With Battlefield V, we want to take you on a true journey through
-    World War 2. But what do we mean by that? Instead of just showcasing new locations,
-    we want to immerse you in this epic conflict and evolve the gameplay, just as
-    tactics and weaponry evolved throughout the war.
+  _slogan: Mutliplayer will never be the same
+  _description: description
   _projectOverlay: {fileID: 1085684612}
 --- !u!1 &1285817801
 GameObject:
@@ -3571,7 +3514,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 4f1f0ce2aa79413499b3679800ffc43b, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 8e931d3bcbe555c409883096ddf59d60, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -4831,26 +4774,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fb405ee95b6edb4cba182a253da4477, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _profession: Sergi
-  _items:
-  - sprite: {fileID: 21300000, guid: 40583febb9bf7a84abd43172b16abe8d, type: 3}
-    title: birthday
-    description: my dog doin a yahoooo
-  - sprite: {fileID: 21300000, guid: 94c6ebbe56707824aa3bbd06a70f2e06, type: 3}
-    title: 3d hulk model picture
-    description: this i make in high school from years ago
-  - sprite: {fileID: 21300000, guid: 9b105650b2c3daa4bbeb6b4a7c0cfcc3, type: 3}
-    title: dinner
-    description: my fake cat get eat by real fisher
-  - sprite: {fileID: 21300000, guid: 5977cab444040034c97f3944be7d2a98, type: 3}
-    title: fishing boat
-    description: boat i make from a fisher
-  - sprite: {fileID: 21300000, guid: 2273e25e97ef2c2448e8223608d1d030, type: 3}
-    title: shadow release me
-    description: my shadow is not anymore
-  - sprite: {fileID: 21300000, guid: c9486f480c0288e498e7d8732a9f3180, type: 3}
-    title: mcgoofy
-    description: my friend and i
+  _profession: 
+  _items: []
 --- !u!114 &1803472374
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5787,7 +5712,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 2019403237}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 82093541731bec34cad3d7a344bf2766, type: 3}
+  m_Script: {fileID: 11500000, guid: f7b4bb96906f88e458930986c8db327f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _image: {fileID: 1233985590}
